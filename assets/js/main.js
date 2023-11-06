@@ -260,3 +260,60 @@
   new PureCounter();
 
 })()
+
+
+/* const form = document.getElementById('contactForm');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(this);
+
+        fetch(this.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('Mensage sent successfully');
+                this.reset(); // Limpa o formulário após o envio bem-sucedido
+            } else {
+                alert('Error trying to send the form. Please, try again later.');
+            }
+        })
+        .catch(error => {
+            console.error('Error trying to send the form. Please, try again later.', error);
+            alert('Error trying to send the form. Please, try again later.');
+        });
+    });
+ */
+    const form = document.getElementById('contactForm');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+    
+        const formData = new FormData(this);
+    
+        fetch(this.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.href = 'contact-success.html'; // Redireciona para a página de sucesso
+            } else {
+                alert('Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.');
+            }
+        })
+        .catch(error => {
+            console.error('Erro ao enviar o formulário:', error);
+            alert('Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.');
+        });
+    });
+    
