@@ -1,0 +1,155 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* #region Theme */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "NeueHaasGroteskDisplayPro65Medium" !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lead {
+  color: #3d5a80;
+}
+
+.btn {
+  --bs-btn-border-radius: 0.35rem;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1466cf;
+  --bs-btn-border-color: #1466cf;
+  --bs-btn-disabled-bg: #1466cf;
+  --bs-btn-disabled-border-color: #1466cf;
+
+  padding: 0.8em 1.5em;
+}
+
+/* #endregion Theme */
+
+/* #region Accordion Customizations */
+#accordionFAQ .accordion-item {
+  /* border: 0; */
+  margin: 15px 0;
+  border: 1px solid var(--bs-accordion-border-color);
+  border-radius: var(--bs-accordion-border-radius);
+}
+
+#accordionFAQ .accordion-button,
+#accordionFAQ .accordion-button.collapsed {
+  border: 0;
+  border-radius: var(--bs-accordion-border-radius);
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+/* #endregion Accordion Customizations */
+
+/* #region Utilities */
+.p-relative {
+  position: relative;
+}
+
+/* #@endregion Utilities */
+
+/* #region footer */
+.footer-staff02 {
+  position: absolute;
+  right: -100px;
+  bottom: -300px;
+}
+
+@media (min-width: 992px) {
+  footer {
+    min-height: 650px;
+  }
+}
+
+body
+{
+  padding: top 20px;;
+}
+
+.background1
+{
+  background-image: url("Assets/Images/backgrounds/png/Background01.png");
+  background-repeat: no-repeat;
+  background-position: right 10px top 10px;
+}
+
+.background2
+{
+  background-image: url("Assets/Images/backgrounds/png/Background02.png");
+  background-repeat: no-repeat;
+  background-position: left 10px bottom 10px;
+  background-size: 10% ;
+}
+
+.background3
+{
+  background-image: url("Assets/Images/backgrounds/svg/BackgroundElement09.svg ");
+  background-repeat: no-repeat;
+  background-position: right 10px top 10px;
+  background-size: 10% ;
+}
+
+.background4
+{
+  background-image: url("Assets/Images/backgrounds/png/Background03.png");
+  background-repeat: no-repeat;
+  background-position: left 50px bottom;
+  background-size: 75% ;
+}
+
+.background5
+{
+  background-image: url("Assets/Images/backgrounds/svg/BackgroundElement09.svg ");
+  background-repeat: no-repeat;
+  background-position: left 300px bottom 70px;
+  background-size: 10% ;
+}
+
+.background6
+{
+  background-image: url("Assets/Images/backgrounds/png/Background04.png");
+  background-repeat: no-repeat;
+  background-position: right 260px top 150px;
+  background-size: 20% ;
+  position: relative;
+  z-index: 1;
+ 
+}
+.border
+{
+  background-color: white;
+}
+
+.background7
+{
+  background-image: url("Assets/Images/backgrounds/png/Background04.png");
+  background-repeat: no-repeat;
+  background-position: right 260px top 150px;
+  background-size: 20% ;
+  position: relative;
+  z-index: 1;
+} 
+
+
+/* #endregion footer */

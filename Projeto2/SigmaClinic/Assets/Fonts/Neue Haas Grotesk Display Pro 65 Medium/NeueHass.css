@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "NeueHaasGroteskDisplayPro65Medium";
+    src: url("./@font-face/./@font-face/f21923cb0f60b46d41a66875255790b3.eot");
+    /* IE9*/
+    src: url("./@font-face/f21923cb0f60b46d41a66875255790b3.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("./@font-face/f21923cb0f60b46d41a66875255790b3.woff2") format("woff2"),
+        /* chrome、firefox */
+        url("./@font-face/f21923cb0f60b46d41a66875255790b3.woff") format("woff"),
+        /* chrome、firefox */
+        url("./@font-face/f21923cb0f60b46d41a66875255790b3.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("./@font-face/f21923cb0f60b46d41a66875255790b3.svg#Neue Haas Grotesk Display Pro 65 Medium") format("svg");
+    /* iOS 4.1- */
+}
+
+.NeueHaasFontFamily {
+    font-family: "NeueHaasGroteskDisplayPro65Medium" !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
