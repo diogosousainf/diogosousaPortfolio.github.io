@@ -5,6 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #d8ecff;
+  background: #000000;
 }
 
 a {
@@ -510,6 +511,10 @@ section {
   opacity: 1;
   bottom: 0;
 } 
+.bi-github {
+  margin-right: 5px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
