@@ -499,9 +499,13 @@ h6 {
 } 
 .bi-github {
   margin-right: 5px;
+  
 }
 .fgithub{
   padding-top: 400px;
+}
+.section-title {
+  padding-top: 50px;
 }
 
 /*--------------------------------------------------------------
