@@ -502,11 +502,22 @@ h6 {
   
 }
 .fgithub{
-  padding-top: 400px;
+  padding-top: 100px;
 }
 .section-title {
   padding-top: 50px;
 }
+#carouselExample {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
