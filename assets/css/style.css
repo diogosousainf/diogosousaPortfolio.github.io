@@ -366,6 +366,12 @@ h6 {
   transition: 0.3s;
   z-index: 1;
 }
+.portfolio-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
 
 .portfolio-item img {
   max-width: 100%;
