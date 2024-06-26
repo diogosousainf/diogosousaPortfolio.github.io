@@ -1,2 +1,2 @@
-<img src="assets/img/portfolio
+<img src="img/portfolio
 /portfolioIMG.png.png" >
